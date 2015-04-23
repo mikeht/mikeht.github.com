@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'images/slider-images/image01.jpg', title : '<div class="slide-content">Michael Tong</br><a href="http://blog.michael-tong.com" target="_blank" style="color:white;font-size:50%;font-family:Courier New">Click Here for my blog</a></div>', thumb : '', url : ''},
-											{image : 'images/slider-images/image02.jpg', title : '<div class="slide-content">Michael Tong</br><a href="http://blog.michael-tong.com" target="_blank" style="color:white;font-size:50%;font-family:Courier New">Click Here for my blog</a></div>', thumb : '', url : ''},
-											{image : 'images/slider-images/image03.jpg', title : '<div class="slide-content">Michael Tong</br><a href="http://blog.michael-tong.com" target="_blank" style="color:white;font-size:50%;font-family:Courier New">Click Here for my blog</a></div>', thumb : '', url : ''},
-											{image : 'images/slider-images/image04.jpg', title : '<div class="slide-content">Michael Tong</br><a href="http://blog.michael-tong.com" target="_blank" style="color:white;font-size:50%;font-family:Courier New">Click Here for my blog</a></div>', thumb : '', url : ''}  
+											{image : 'images/slider-images/image01.jpg', title : '<div class="slide-content">Michael Tong</div>', thumb : '', url : ''},
+											{image : 'images/slider-images/image02.jpg', title : '<div class="slide-content">Michael Tong</div>', thumb : '', url : ''},
+											{image : 'images/slider-images/image03.jpg', title : '<div class="slide-content">Michael Tong</div>', thumb : '', url : ''},
+											{image : 'images/slider-images/image04.jpg', title : '<div class="slide-content">Michael Tong</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
