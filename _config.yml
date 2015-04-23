@@ -2,7 +2,7 @@ title: Michael Tong
 description: 
 disqus_shortname: michaeltong
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://michael-tong.com
+url: http://localhost:4000
 # Owner/author information
 owner:
 name: Michael Tong
