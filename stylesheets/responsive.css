@@ -112,7 +112,7 @@
 	}
 	
 	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
+		background: url(../image/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
 		display: inline-block;
@@ -277,7 +277,7 @@
 	}
 	
 	.type-work {
-		background: url(../img/filter-icon.png) no-repeat;
+		background: url(../image/filter-icon.png) no-repeat;
 		width: 16px;
 		height: 16px;
 		display: inline-block;
@@ -396,17 +396,17 @@
   	only screen and (min-resolution: 2dppx) {
 		
 		header #logo a {
-			background-image: url(../img/logo_@2x.png);
+			background-image: url(../image/logo_@2x.png);
 			background-size: 96px 30px;
 		}
 		
 		.menu-nav {
-			background-image: url(../img/menu-mobile_@2x.png);
+			background-image: url(../image/menu-mobile_@2x.png);
 			background-size: 16px 32px;
 		}
 		
 		.type-work {
-			background-image: url(../img/filter-icon_@2x.png);
+			background-image: url(../image/filter-icon_@2x.png);
 			background-size: 16px 16px;
 		}
 	}
