@@ -1,0 +1,48 @@
+<!-- Our Work Section -->
+<div id="my" class="page-alternate">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">MYSELF</h2>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Look inside</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
+                        <li><a href="#filter" data-option-value=".academia">Academia</a></li>
+                        <li><a href="#filter" data-option-value=".life">Life</a></li>
+                        <li><a href="#filter" data-option-value=".travel">Travel</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+				{% include myself/academia.html %}
+				{% include myself/life.html %}
+				{% include myself/travel.html %}
+				
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
