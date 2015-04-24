@@ -1408,3 +1408,20 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+
+.pagination {
+	margin: 20px 10px;
+	text-align: center;
+	ul {
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	li {
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.current-page {
+		font-weight: 700;
+	}
+}

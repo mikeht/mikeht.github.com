@@ -1,8 +1,49 @@
-title: Michael Tong
-description: 
-disqus_shortname: michaeltong
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://localhost:4000
+title:            Tech's good, so is life.
+description:      It's Michael Tong's homepage, about technology and life.
+
+url:              http://michael-tong.com
+
 # Owner/author information
 owner:
-name: Michael Tong
+  name:           Michael Tong
+  bio:            "I want to be a geek, as well as an artist."
+  email:          michaelht@uchicago.edu
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        keyboardPoet
+  facebook:       1193666508
+  github:         MichaelTong
+  stackexchange:  https://stackexchange.com/users/2641730/michael-tong
+  linkedin:       michaelhowtong
+  instagram:      michael_tong7
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    
+  weibo:          mickeylovescat
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Chicago
+future:      true
+highlighter: pygments
+markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 3
+
+

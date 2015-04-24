@@ -1,0 +1,47 @@
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+					{% if site.owner.blog %}
+                    				<li><a href="{{ site.owner.blog }}" title="Read My Blog" target="_blank"><span class="font-icon-social-500px"></span></a></li>
+					{% endif %}
+					{% if site.owner.twitter %}
+                        			<li><a href="https://twitter.com/{{ site.owner.twitter }}" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+					{% endif %}
+					{% if site.owner.facebook %}
+                        			<li><a href="https://www.facebook.com/{{ site.owner.facebook }}" title="Add Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+					{% endif %}
+					{% if site.owner.linkedin %}
+						<li><a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}" title="Connect Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+					{% endif %}
+					{% if site.owner.github %}
+						<li><a href="https://github.com/{{ site.owner.github }}" title="See Me on GitHub" target="_blank"><span class="font-icon-social-github"></span></a></li>
+					{% endif %}
+					{% if site.owner.weibo %}
+						<li><a href="http://www.weibo.com/{{ site.owner.weibo }}" title="Follow Me on Weibo" target="_blank"><span class="font-icon-social-weibo"></span></a></li>
+					{% endif %}
+					{% if site.owner.google_plus %}
+						<li><a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+					{% endif %}
+					{% if site.owner.stackexchange %}
+						<li><a href="{{ site.owner.stackexchange }}" target="_blank"><span class="font-icon-social-stack-exchange"></span></a></li>
+					{% endif %}
+					{% if site.owner.instagram %}<li>
+						<a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><span class="font-icon-social-instagram"></span></a></li>
+					{% endif %}
+					{% if site.owner.flickr %}<li>
+						<a href="http://www.flickr.com/photos/{{ site.owner.flickr }}" target="_blank"><span class="font-icon-social-flickr"></span></a></li>
+					{% endif %}
+					{% if site.owner.tumblr %}<li>
+						<a href="http://{{ site.owner.tumblr }}.tumblr.com" target="_blank"><i class="font-icon-social-tumblr"></i> Tumblr</a></li>
+					{% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
